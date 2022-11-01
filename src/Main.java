@@ -25,5 +25,22 @@ public class Main {
         } else {
             System.out.println("Можно кататься без сопровождения взрослого");
         }
+
+        // Задача 3
+
+        int one = 17;
+        int two = 17;
+        int free = 12;
+        if (one > two && one > free) {
+            System.out.println("Число " + one + " большее");
+        } else if (two > one && two > free) {
+            System.out.println("Число " + two + " большее");
+        } else if (free > one && free > two) {
+            System.out.println("Число " + free + "большее");
+        } else if (one == two || two == free || free == one) {
+            System.out.println("Два числа равны");
+        } else {
+            System.out.println("Числа равны");
+        }
     }
 }
