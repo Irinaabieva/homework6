@@ -14,5 +14,16 @@ public class Main {
         else {
             System.out.println("Если возраст человека равен " + age + ", то ему пора на работу");
         }
+
+        // Задача 2
+
+        int secondAge = 15;
+        if (secondAge < 5) {
+            System.out.println("Ребенок не может кататься на аттракционе");
+        } else if (secondAge >=5 && secondAge <= 14) {
+            System.out.println("Ребенок может кататься на аттракицоне в сопровождении взрослого");
+        } else {
+            System.out.println("Можно кататься без сопровождения взрослого");
+        }
     }
 }
